@@ -1,0 +1,117 @@
+/* 
+ Example 
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-style: normal;
+    text-decoration: none;
+}
+$example-theme-color: #ff6428;
+.example {
+    &-top {
+        padding: 0 60px;
+        height: 60px;
+        line-height: 60px;
+        background: $example-theme-color;
+        color: #FFF;
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+            strong {
+                margin-left: 10px;
+                font-size: 16px;
+                font-weight: normal;
+            }
+        }
+    }
+    &-container {
+        padding: 30px 60px;
+        fieldset {
+            margin-bottom: 50px;
+            border: none;
+            border-top: 1px solid #eee;
+            legend {
+                margin-left: 40px;
+                padding: 0 10px; // height:30px;
+                font-size: 16px;
+            }
+        }
+        &-local {
+            height: 300px;
+            border: 1px solid #ddd;
+        }
+        &-title {
+            height: 28px;
+            line-height: 28px;
+            border-bottom: 1px solid $example-theme-color;
+            color: $example-theme-color;
+            font-size: 12px;
+            span {
+                float: left;
+                padding: 0 10px;
+                background: $example-theme-color;
+                color: #FFF;
+            }
+        }
+        &-row {
+            margin-bottom: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ededed;
+            overflow:hidden;
+            .best-tab {
+                float:left;
+                width:400px;
+                margin-right:100px;
+                &-hd {
+                    height: 30px; // border-bottom: 1px solid $example-theme-color;
+                    .best-hd-item {
+                        float: left;
+                        padding: 0 20px;
+                        height: 30px;
+                        line-height: 30px;
+                        &.current {
+                            background: $example-theme-color;
+                            color: #fff;
+                        }
+                    }
+                }
+                &-bd {
+                    position: relative;
+                    height: 200px;
+                    line-height: 200px;
+                    text-align: center;
+                    // border: 1px solid $example-theme-color;
+                    overflow: hidden;
+                    .best-bd-con {
+                        // position: absolute;
+                        .item1 {
+                            background: #e0e0e0;
+                        }
+                        .item2 {
+                            background: #c5e2c5;
+                        }
+                        .item3 {
+                            background: #babaf5;
+                        }
+                        .item4 {
+                            background: #cab0f5;
+                        }
+                    }
+                }
+                &.slide{
+                    .best-bd-con{
+                        position:absolute;
+                        left:0;
+                        .best-bd-item{
+                            float:left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
