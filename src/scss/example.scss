@@ -10,7 +10,7 @@
     font-style: normal;
     text-decoration: none;
 }
-$example-theme-color: #ff6428;
+$example-theme-color: #F10215;
 .example {
     &-top {
         padding: 0 60px;
@@ -73,6 +73,7 @@ $example-theme-color: #ff6428;
                         padding: 0 20px;
                         height: 30px;
                         line-height: 30px;
+                        cursor:pointer;
                         &.current {
                             background: $example-theme-color;
                             color: #fff;
@@ -89,16 +90,16 @@ $example-theme-color: #ff6428;
                     .best-bd-con {
                         // position: absolute;
                         .item1 {
-                            background: #e0e0e0;
+                            background: #f5f5f5;
                         }
                         .item2 {
-                            background: #c5e2c5;
+                            background: #edfbed;
                         }
                         .item3 {
-                            background: #babaf5;
+                            background: #ececfb;
                         }
                         .item4 {
-                            background: #cab0f5;
+                            background: #f9f1e4;
                         }
                     }
                 }

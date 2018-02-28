@@ -1,8 +1,10 @@
-# What is best-tab ?
-This is a tab component that focuses on the PC side of web applications. It's simple, compact, lightweight, efficient, and portable. Helps reduce the amount of development effort.
-# Dependence 
-- jquery.1.11.x
-# Installation
+# best-tab 是什么 ?
+应用于web开发的选项卡组件.
+# 演示
+[Demo](https://chenyangdamon.github.io/best-tab/dist/)
+# 依赖 
+- jquery
+# 安装
 ## script
 ```html
 // import jquery.js
@@ -10,7 +12,7 @@ This is a tab component that focuses on the PC side of web applications. It's si
 // import best-tab.js
 <script type="text/javascript" src="js/best-tab.js"></script>
 ```
-# Useage
+# 使用
 index.js
 ```html
 <script type="text/javascript">
@@ -22,9 +24,9 @@ $(function(){
 });
 </script>
 ```
-# Constructor
-## Options
-|key|description|default|options|
+# 结构
+## 配置项
+|属性|说明|默认值|字段类型|
 |:---|---|---|---|
 | `container`|tab容器.|`".best-tab"`|`String`|
 | `tabHd`|tab的选项.|`".best-tab-hd"`|`Number`|
