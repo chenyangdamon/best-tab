@@ -53,7 +53,7 @@
 	};
 
 	Tab.prototype = {
-		constructor: "Tab",
+		constructor: Tab,
 		/**
 		 * 初始化
 		 * @param options
